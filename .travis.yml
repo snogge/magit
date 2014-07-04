@@ -21,7 +21,7 @@ install:
 #      $CURL https://raw.githubusercontent.com/ohler/ert/fb3c278d/lisp/emacs-lisp/ert.el -o ert.el;
 #      $CURL https://raw.githubusercontent.com/emacsmirror/cl-lib/master/cl-lib.el -o cl-lib.el;
 #    fi
-  - git tag 0
+#  - git tag 0
 script:
   - make
   - make test
